@@ -1,0 +1,54 @@
+{%load static%}
+<!DOCTYPE html>
+<html>
+<head>
+	<title>{{title}}</title>
+	<link rel="icon" href="{%static "i.jpg"%}">
+	<link rel="stylesheet" type="text/css" href="{%static "tampilan.css"%}">
+</head>
+<body>
+	<div class="menu">
+		<ul>
+			<li><a href="/">HOME</a></li>
+			<li><a href="/about">ABOUT</a></li>
+				<ul>			
+					<li><a href="/about/daftar"></a>DAFTAR PRAKTIKUM</li>
+					<li><a href="/about/anggota"></a>DAFTAR ANGGOTA</li>
+				</ul>
+			</li>
+			<li><a href="/contact">CONTACT US</a></li>
+		</ul>
+	</div>
+	<div class="add">
+		<h1>{{judul}}</h1>
+		<div class="list">
+			<h3><u>Daftar Praktikum Teknik Industri UMS</u></h3>
+			<br><br>
+			<ul>
+				<li><img src="{%static "g.jpg"%}" height="200px" width="200px"><br><h3>Praktikum<br>Pemrograman Komputer</h3></li>
+				<li><img src="{%static "g.jpg"%}" height="200px" width="200px"><br><h3>Praktikum<br>Pemrograman Komputer</h3></li>
+				<li><img src="{%static "g.jpg"%}" height="200px" width="200px"><br><h3>Praktikum<br>Perancangan Teknik Industri</h3></li>
+			</ul><br><br>
+	</div>
+</div>
+	<div class="foot">
+	<ul>
+		<li><a href="/"><img src="{%static "h.jfif"%}" height="100px"></li>
+		<li><b>Alamat</b><br><br>
+					Laboratorium Teknik Industri UMS<br>
+					Gedung H Lt.3 Fakultas Teknik, Universitas Muhammadiyah Surakarta<br>
+					Jl. Ahmad Yani Pabelan, Kartasura<br>
+					Surakarta 57162. Jawa Tengah, Indonesia<br><br>
+					Telepon: +62 123 123 ext. 000<br>
+					Email:<br>
+					LaboratoriumTI@ums.ac.id<br>
+				</li>
+		</ul>	
+	</div>
+</body>
+		<footer>
+			<p>
+				<i>Copyright &copy; 2021 Laboratorium Teknik Industri UMS</i>
+			</p>
+		</footer>
+</html>
